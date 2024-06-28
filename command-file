@@ -1,0 +1,11 @@
+# mulitips inside Directory create command 
+mkdir -p gullu/tarun/{suman,gujjar,adhana/{haryana,faridabad,tigaon/{lehandola,mndh}}}
+# Git 
+git config --global user.name "Ruby-Adhana"
+git config --global user.email "rubyadhana500@gmail.com"
+git config --list
+git log --oneline
+git remote -v
+git remote add origin <repo url>
+git push origin master
+git push origin master -f
