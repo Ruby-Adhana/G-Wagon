@@ -12,6 +12,6 @@ apt install apache2 -y
 apt install firewalld -y
 apt update -y
 
-#root access sudoers 
+# premission allow 
 vim /etc/ssh/sshd_config
-# 40 and 65 row
+# 33 and 57 row
